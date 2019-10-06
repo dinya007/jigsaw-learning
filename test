@@ -1,0 +1,13 @@
+#!/usr/bin/java --source 11
+
+import java.util.Arrays;
+import java.util.stream.IntStream;
+
+public class Script {
+
+    public static void main(String[] args) {
+        System.out.println("Hello " + Arrays.deepToString(args));
+        System.out.println(IntStream.of(2, 3).sum());
+    }
+
+}
